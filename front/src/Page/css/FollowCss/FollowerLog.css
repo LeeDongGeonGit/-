@@ -1,0 +1,108 @@
+.FLP_Main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: auto; 
+    background-color: black;
+}
+.FLP_header{
+    display: flex;
+}
+.FLP_X{
+    width: 15px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.FLP_friendlogo{
+    color: white;
+    margin-left: 100px;
+    font-weight: bold; /* 굵은 폰트 무게는 그라데이션을 더 눈에 띄게 할 수 있습니다 */
+    background: linear-gradient(to right, #9E00FF, #FF00E3); /* 보라색에서 분홍색으로의 그라데이션 */
+    -webkit-background-clip: text; /*  텍스트에 배경을 클립합니다 (WebKit 브라우저)  */
+    background-clip: text; /* 표준 구문이지만 지원이 제한될 수 있습니다 */
+    -webkit-text-fill-color: transparent; /*  WebKit 브라우저에서 텍스트 색상을 투명하게 만듭니다*/
+    color: transparent;
+    display: inline;
+    font-size: 25px;
+    margin-top: 15px;
+    font-size: 25px;
+}
+.FLP_Mycontainer{
+    display: flex;
+    margin-bottom: -5px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.FLP_Mycontainer2{
+    display: flex;
+    margin-bottom: -20px;
+}
+.FLP_followingbtnOff{
+    background: white;
+    width: 70px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: none;
+}
+.FLP_followingbtnOn{
+    background: linear-gradient(to right, #9E00FF, #FF00E3);
+    width: 70px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: none;
+}
+.FLP_img>img{
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+.FLP_textcontainer{
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.FLP_hr{
+    margin-top: 30px;
+    width: 100%;
+    opacity: 0.3;
+
+}
+.FLP_postcontainer{
+    display: flex;
+}
+.FLP_posth2{
+    color: white;
+    margin-left: 10px;
+    width: 80px;
+}
+.FLP_postbtn{
+    background: linear-gradient(to right, #9E00FF, #FF00E3);
+    width: 90px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 210px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+}
+.communityPageLoading{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    
+}

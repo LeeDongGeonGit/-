@@ -1,0 +1,310 @@
+.Memrbership_Main {
+    display: flex;
+    flex-direction: column;
+    height: 110vh;
+    background-color: black;
+    overflow-y: auto;
+}
+.MP_img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Membership_X {
+    width: 15px;
+    height: 25px;
+    margin-left: -160px;
+    margin-top: 10px;
+}
+
+.MP_Logo {
+    width: 150px;
+    height: 150px;
+    display: block;
+    
+}
+.MP_title{
+    margin-left: auto;
+    margin-right: auto;
+}
+.MP_h2 {
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(to right, #9e00ff, #ff00e3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    margin-top: -0px;
+    margin-bottom: -0px;
+}
+
+.MP_inputcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.MP_inputBox {
+    position: relative;
+    width: 300px;
+}
+.MP_inputBox123 {
+    position: relative;
+    width: 300px;
+    margin-top: 25px;
+}
+
+
+.MP_icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+.MP_icon123 {
+    position: absolute;
+    left: 15px;
+    top: 45%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+.MP_inputcontainer2 {
+    background-color: white;
+    width: 250px;
+    height: 29px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 10px 10px 40px;
+}
+
+.MP_inputNamecontainer1 {
+    background-color: white;
+    width: 250px;
+    height: 29px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 10px 10px 40px;
+}
+.MP_inputcontainerid{
+    background-color: white;
+    width: 250px;
+    height: 29px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 10px 10px 40px;
+}
+
+.MP_inputcontainerTown,
+.MP_inputcontainerEm,
+.MP_inputcontainerNum {
+    background-color: white;
+    width: 250px;
+    height: 29px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 10px 10px 40px; /* Adjust this value according to the width of your icon */
+}
+.MP_inputcontainerTown{
+    resize: none;
+    font-size: 12px ;
+    padding-right: 100px;
+    line-height: 1;
+}
+
+.MP_inputNamecontainer1::placeholder,
+.MP_inputcontainer1::placeholder,
+.MP_inputcontainer2::placeholder,
+.MP_inputcontainerid::placeholder,
+.MP_inputcontainerEM::placeholder,
+.MP_inputcontainerNUM::placeholder {
+    color: #a2a2a2;
+}
+.MP_inputcontainerTown::placeholder,
+.MP_inputcontainerEm::placeholder,
+.MP_inputcontainerNum::placeholder{
+    font-size: 15px;
+    padding-top: 5px;
+    color: #a2a2a2;
+}
+
+.MP_idcontainer {
+    display: flex;
+    width: 300px;
+    position: relative;
+}
+
+.NP_passwordBox {
+    width: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: -59px;
+}
+
+.MP_overlapBtn {
+    position: absolute;
+    right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: linear-gradient(to right, #9e00ff, #ff00e3);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.MP_pwTexts {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+.MP_inputcontainer2P {
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: -27px;
+    
+}
+.MP_inputcontainer2Pa{
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: -27px;
+    margin-left: -120px;
+}
+
+.MP_btn {
+    background: linear-gradient(to right, #9e00ff, #ff00e3);
+    border-radius: 40px;
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+.MP_addressContainer {
+    display: flex;
+    width: 300px;
+    position: relative;
+}
+
+.MP_inputcontainer1 {
+    flex-grow: 1;
+    border-radius: 30px;
+    padding-right: 80px; /* 공간 확보 */
+}
+
+.ML_mapBtn {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: linear-gradient(to right, #9e00ff, #ff00e3);
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+.MP_EMcontainer {
+    display: flex;
+    width: 300px;
+    position: relative;
+}
+
+.MP_inputcontainerEM {
+    flex-grow: 1;
+    border-radius: 30px;
+    padding-right: 80px; /* 공간 확보 */
+}
+
+.MP_checkBtn {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: linear-gradient(to right, #9e00ff, #ff00e3);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.MP_NUMcontainer {
+    display: flex;
+    width: 300px;
+    position: relative;
+}
+
+.MP_inputcontainerNUM {
+    flex-grow: 1;
+    border-radius: 30px;
+    padding-right: 80px; /* 공간 확보 */
+}
+
+.MP_numcheckBtn {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: linear-gradient(to right, #9e00ff, #ff00e3);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.MP_btnBox {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.MP_inputcontainer2P1{
+    margin-top: -20px;
+    padding-top: 10px;
+    margin-left: 30px;
+    margin-bottom: -8px;
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    vertical-align: top;
+    width: 300px;
+}
+.MP_inputBox1234{
+    position: relative;
+    width: 300px;
+    margin-bottom: 6px;
+  
+}

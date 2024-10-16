@@ -1,0 +1,57 @@
+.T_PostListBody{
+    background-color: black;
+    border-radius: 20px;
+}
+.T_PostListInBody{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 20px;
+}
+.T_imgBox{
+    margin-left: 5%;
+    background-color: black;
+}
+.T_imgBox>img{
+    height:80px;
+    width: 110px;
+    margin: 10px 0 10px 0;
+    background-color: black;
+}
+.T_PostListline{
+    background-color: white;
+    height: 1px;
+    width: 95%;
+    border: 0;
+    opacity: 0.3;
+}
+.T_PostListTitle{
+    font-size: 20px;
+    margin: 10px 5px 5px 5px;
+    color: white;
+    background-color: black;
+}
+.T_PostListTag{
+    color: white;
+    margin-bottom: 10px;
+    background-color: black;
+}
+.T_PostListListIcon{
+    background-color: black;
+}
+.T_PostListListIcon>img{
+    width: 20px;
+    margin: 5px;
+    background-color: black;
+}
+.T_PostListLeft{
+    margin-left: 3%;
+    background-color: black;
+}
+.T_PostListright{
+    background-color: black;
+}
+.T_PostListtags{
+    background-color: black;
+    color: white;
+}

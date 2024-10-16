@@ -1,0 +1,109 @@
+.SP_Main{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: black;
+    overflow-y:hidden;
+}
+.SP_Logo{
+    width: 250px;
+    height: 250px;
+    margin-top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.SP_container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.SP_idBox{
+    position: relative;
+    width: 200px;
+}
+.SP_pwBox{
+    position: relative;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.SP_icon{
+    position: absolute;
+    left: 15px;
+    top: 45%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+.SP_inputcontainer1{
+    background-color: white;
+    border-radius: 30px;
+    height: 25px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    border: none;
+
+    width: 170px;
+    padding: 10px 10px 10px 40px; /* Adjust this value according to the width of your icon */
+    border: 1px solid #ccc;
+}
+.SP_inputcontainer2{
+    background-color: white;
+    border-radius: 30px;
+    height: 25px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    border: none;
+
+    width: 170px;
+    padding: 10px 10px 10px 40px; /* Adjust this value according to the width of your icon */
+    border: 1px solid #ccc;
+}
+.SP_button{
+    background: linear-gradient(to right, #9E00FF, #FF00E3);
+    border-radius: 40px;
+    margin-left: 5px;
+    width: 215px;
+    height: 45px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+.SP_textContainer{
+    margin-top: 40px;
+    display: flex;
+    color: white;
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: center;
+    justify-content: center;
+}
+.SP_text1{
+    margin-right: 5px;
+    text-decoration: none;
+    color: white;
+    
+}
+.SP_text2{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: white;
+    
+}
+.SP_text3{
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+    
+}
+.link-no-decor {
+    text-decoration: none;
+}

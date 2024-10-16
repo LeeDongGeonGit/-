@@ -1,0 +1,398 @@
+.M_Main {
+    position: relative; /* 상대적 위치 기준 설정 */
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.M_MyLogBox {
+    position: absolute; /* 절대 위치 */
+    top: 20px;
+    left: 10px;
+    z-index: 1000; /* 지도보다 위에 렌더링되도록 z-index 설정 */
+}
+
+.homeBtn {
+    position: absolute; /* 절대 위치 */
+    right: 0px;
+    width: 70px;
+    z-index: 1000;
+}
+
+.questionClick {
+    width: 30px;
+    margin-top: 90px;
+    margin-left: 45px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+.homeMarker{
+    width: 30px;
+
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.Map_questionClick{
+    position: absolute;
+    width: 30px;
+    margin-top: 90px;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 1000;
+}
+.Map_X{
+    position: absolute; /* 절대 위치 */
+    width: 15px;
+    height: 25px;
+    margin-left: -340px;
+    margin-top: 5px;
+    z-index: 1000; /* 지도보다 위에 렌더링되도록 z-index 설정 */
+}  
+
+.M_TopFiveListContaier {
+    position: absolute;
+    bottom: -150px;
+    right: -20px;
+    z-index: 1000;
+    width: 76px;
+    height: 250px;
+    border-radius: 10px;
+    display: block;
+}
+
+.M_TopEachContainer {
+    margin-top: 10px;
+    margin-left: 8px;
+    width: 60px;
+    height: 38px;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+}
+
+.M_TopEachContainerP {
+    display: block;
+    margin-left: 7px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.M_TopEachContainerImg {
+    width: 25px;
+    height: 25px;
+    background: rgb(255, 153, 0);
+    display: block;
+    margin-left: 3px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 100%;
+}
+
+.M_mainMarker {
+    border-radius: 100%;
+    border: #9E00FF;
+}
+
+.M_MyLogBox button {
+    width: 100px;
+    height: 50px;
+    padding: 8px 16px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: transparent;
+    position: relative;
+    overflow: hidden; /* 버튼의 경계 밖으로 내용이 넘칠 경우 숨김 */
+}
+
+.M_MyLogBox button::after {
+    content: 'My Log';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(to right, #9E00FF, #FF00E3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    z-index: 1;
+}
+
+.M_CustomOverlayMap {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background-size: cover;
+}
+
+.M_CustomOverlayMapImg {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 마커 className */
+.M_Marker {
+    z-index: 500;
+}
+
+/* 오버레이 className */
+.M_CustomOverlayMap {
+    z-index: 1000;
+}
+
+.M_MainClickBox {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid none;
+    border-radius: 10px;
+    padding: 5px;
+    height: 410px;
+    width: 250px;
+    top: 50%;
+    left: 50%;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+/* 마커 클릭시 출력되는 순위 오버레이 */
+.M_mainClickBoxHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: -5px;
+}
+
+.M_X {
+    margin-left: 0px;
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.AreaNameBox {
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: -20px;
+}
+
+.AreaText {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.TopText {
+    margin-top: -10px;
+    font-size: 25px;
+}
+
+.M_mainFollowBoxOne,
+.M_mainFollowBoxTwo,
+.M_mainFollowBoxThree {
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(to right, #ab25fe, #fc34e5);
+    display: flex;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+
+.RankIcon1{
+    position: absolute;
+    width: 40px;
+    height: 55px;
+    margin-top: -20px;
+    margin-left: -18px;
+}
+.RankIcon2,
+.RankIcon3 {
+    position: absolute;
+    width: 42px;
+    height: 55px;
+    margin-top: -20px;
+    margin-left: -19px;
+}
+
+.M_mainFollowleftBox {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 25px;
+}
+
+.M_mainFollowleftImg {
+    border-radius: 100%;
+    width: 80px; /* 변경된 너비 */
+    height: 80px; /* 변경된 높이 */
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 1px rgba(255, 255, 255, 0.7) solid;
+}
+
+.M_mainFollowRight {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.M_mainFollowRightName {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.M_mainFollowRightuserName {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: white;
+}
+.M_mainFollowRightFollow{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+.M_mainFollowRightBtn {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: rgba(0, 0, 0, 0.8);
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.PL_searchBoxContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2000; /* 검색 버튼이 위에 표시되도록 z-index 조정 */
+    background-color: rgba(255, 255, 255); /* 배경색 추가 */
+    padding: 10px 0; /* 내부 여백 조정 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80px; /* 높이 조정 */
+}
+
+.PL_searchBoxTitle {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(to right, #9d00ffdd, #FF00E3);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.PL_searchBox {
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+    width: 95%; /* 검색창의 너비 조정 */
+}
+
+.PL_searchinput {
+    flex: 1; /* 입력창이 남은 공간을 채우도록 설정 */
+    border: 1px solid #ccc;
+    border-radius: 7px 0 0 7px; 
+    border:  0px;
+    padding-left: 10px;
+    width: 285px;
+    background-color: #D9D9D9;
+}
+
+
+.PL_searchBtn{
+    margin-left: -5px;
+    background-color:#D9D9D9;
+    border-radius: 0 7px 7px 0;
+    border-left: solid white 1px;
+}
+
+.PL_searchResults {
+    position: absolute;
+    top: 80px; /* 검색창 아래에 위치하도록 설정 */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2000;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    max-height: 150px;
+    overflow-y: auto;
+    width: 90%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.PL_searchResults li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.PL_searchResults li:hover {
+    background-color: #f0f0f0;
+}
+
+.M_MainClickBoxWrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+  }
+
+  .PL_searchResults {
+    position: absolute;
+    top: 80px; /* 검색창 아래에 위치하도록 설정 */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2000;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    max-height: 150px;
+    overflow-y: auto;
+    width: 90%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.PL_searchResults li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.PL_searchResults li:hover {
+    background-color: #f0f0f0;
+}

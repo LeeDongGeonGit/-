@@ -1,0 +1,191 @@
+
+body , html{
+    margin: 0;
+    padding: 0;
+}
+.PostUpPageBody123{
+    color: white;
+    min-height: 100vh;
+
+}
+.PostUpPageBody123 *{
+    background-color: black;
+}
+.PostUp_X{
+    width: 15px;
+    height: 25px;
+    margin-top: 10px;
+}
+.PostUpPageHeaderBack{
+    font-size: 30px;
+    margin-left: 5%;
+}
+.PostUpPageHeader{
+    display: flex;
+    justify-content:  space-between;
+    align-items:center;
+    padding: 2% 2% 2% 2%;
+    background-color: black;
+}
+.PostUpPageSelect{
+    margin-left: 8%;
+    width: 40%;
+    margin-top: 10px;
+}
+.PostUpPageSelect>input[value="false"]{
+    margin-left: 14px;
+}
+
+.PostUpPageSelect > input[type='radio'] {
+    appearance: none;
+    -webkit-appearance: none; /* 크롬, 사파리 등에서 필요 */
+    -moz-appearance: none; /* 파이어폭스에서 필요 */
+    border: 2px solid white; /* 외곽선 설정 */
+    width: 15px; /* 외부 원의 크기 */
+    height: 15px; /* 외부 원의 크기 */
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+    position: relative; /* 가상 요소의 위치 기준을 정하기 위해 relative로 설정 */
+}
+
+.PostUpPageSelect > input[type='radio']:checked::before {
+    content: ""; /* 필수: 가상 요소에 내용이 필요 */
+    position: absolute;
+    top: 0px; /* 내부 원 위치 조정 */
+    left: 0px; /* 내부 원 위치 조정 */
+    width: 11px; /* 내부 원의 크기 */
+    height: 11px; /* 내부 원의 크기 */
+    border-radius: 50%;
+    background-color: red; /* 내부 원 색상 */
+}
+.PostUp_saveBtn{
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.PostUpPageHeader> button{
+    border: none;
+    background: linear-gradient(to right, #9E00FF, #FF00E3);
+    color: white;
+    border-radius: 7px;
+    width: 50px;
+    height: 25px;
+
+}
+.PostUpPageLine{
+    background-color: gray;
+    height: 1px;
+    width: 100%;
+    border: none;
+    opacity:unset;
+    padding: 0;
+    margin: 0;
+}
+.PostUpPageMapBtn{
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+.PostUpPageMapBtn> span{
+    vertical-align: 5px;
+}
+.PostUpPageMapBtnSpan{
+    text-decoration: none;
+    color: white;
+}
+.PostUpPageMapBtnImg{
+    width: 15px;
+    margin: 10px 5px 0 10px;
+}
+.PostUpPageTile{
+  padding-top: 3%;
+  height: 40px;
+  
+}
+.PostUpPageTile>input{
+    border: none;
+    color: white;
+    padding-left: 10px;
+    font-size: 25px;
+    width: 90%;
+}
+.PostUpPageTile>input:focus{
+    outline:none;
+    
+}
+.PostUpPageTile>input::placeholder{
+    color: rgba(255, 255, 255, 0.4);
+}
+.PostUpPageMainText{
+    height: 60%;
+    text-align: center;
+    
+}
+.PostUpPageMainText>textarea{
+    color: white;
+    width: 95%;
+    height: 500px;
+    resize: none;
+    border: none;
+    font-size: 20px;
+}
+.PostUpPageMainText>textarea:focus{
+    outline:none;
+}
+.PostUpPageMainText>textarea::placeholder{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 15px;
+}
+
+.PostUpPageTag{
+    text-align: center;
+    margin: 0;
+    height: 60px;
+}
+.PostUpPageTag>input{
+    width: 95%;
+    border: none;
+    color: white;
+}
+.PostUpPageTag>input:focus{
+    outline: none;
+}
+
+.PostUpPageTag>input::placeholder{
+    color: rgba(255, 255, 255, 0.4);
+}
+.PostUpPageImgBtn{
+    position: fixed;
+    top: 78%;
+    left: 75%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+.PostUpPageImgBtn>img{
+    background-color: white;
+    width: 50px;
+
+}
+.PostUpPageMainText>div>img{
+    width: 90%;
+}
+.PostUpPageMainText>div>span{
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 10px;
+    position: relative;
+    left: 88%;
+    top: 30px;
+    padding: 3px;
+    color: white;
+}
+.PostUp_deletePicture{
+    width: 10px;
+    height: 10px;
+    padding-bottom: 2px;
+}

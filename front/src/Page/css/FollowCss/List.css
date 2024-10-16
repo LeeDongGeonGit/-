@@ -1,0 +1,40 @@
+
+.LP_Main{
+    margin-top: 30px;
+    padding: 0 0% 0 0%;
+}
+.LP_imagecontainer> img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.LP_followercontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+    margin-bottom: 50px;
+
+}
+.LP_h2{
+    color: white;
+    margin-left: 50px;
+    font-size: 25px;
+    margin-right: 50px;
+}
+.LP_btn{
+    background: linear-gradient(to right, #9E00FF, #FF00E3);
+    border-radius: 20px;
+    margin-left: 5px;
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    color: white;
+    border: none;
+}
+

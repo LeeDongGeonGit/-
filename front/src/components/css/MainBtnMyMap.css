@@ -1,0 +1,44 @@
+.Non{
+    background-color: black;
+}
+.Active{
+    background-color: black;
+}
+.Non>img{
+    background-color: black;
+    width: 40px;
+}
+.Active>img{
+    background-color: black;
+    width: 40px;
+}
+.MainBtnMyMapBody123>button:nth-child(3)>img{
+    width: 20px;
+
+}
+.MainBtnMyMapBody123>button:nth-child(3){
+    padding: 0 15px 0 15px;
+
+}
+.MainBtnMyMapBody123>button{
+    width: 50px;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    background-color: none;
+}
+.MainBtnMyMapBody123> button+button{
+    margin-left: 20%;
+}
+
+.MainBtnMyMapBody123{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    position: fixed;
+    bottom:4%;
+    right: 30%;
+    background-color: transparent;
+}

@@ -1,0 +1,181 @@
+.IF_main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200vh;
+    background-color: black;
+}
+.IF_X{
+    width: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.IF_Logo{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -30px;
+}
+.IF_textcontainer{
+    display: flex;
+    justify-content: space-between; /* Spreads the headings to use the full width of the container */
+    position: relative; /* Necessary for positioning the pseudo-element absolutely */
+    padding-bottom: 5px;
+}
+.IF_textcontainer::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0; /* Aligns the underline right below the text */
+    height: 3px; /* Height of the underline */
+    background: linear-gradient(to right, #9E00FF, #FF00E3 50%, white 50%); /* Gradient for multi-color */
+    border-radius: 1px;
+}
+.IF_text1{
+    font-size: 25px;
+    font-weight: bold; /* 굵은 폰트 무게는 그라데이션을 더 눈에 띄게 할 수 있습니다 */
+    background: linear-gradient(to right, #9E00FF, #FF00E3); /* 보라색에서 분홍색으로의 그라데이션 */
+    -webkit-background-clip: text; /*  텍스트에 배경을 클립합니다 (WebKit 브라우저)  */
+    background-clip: text; /* 표준 구문이지만 지원이 제한될 수 있습니다 */
+    -webkit-text-fill-color: transparent; /*  WebKit 브라우저에서 텍스트 색상을 투명하게 만듭니다*/
+    color: transparent;
+    display: inline;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+.IF_pwText2{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-right: 20px;
+    margin-top: 80px;
+}
+
+.IF_inputdox{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.IF_iconEm {
+    position: absolute;
+    left: 15px;
+    top: 45%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+.IF_iconNum {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+.IF_EMcontainer{
+    display: flex;
+    width: 300px;
+    position: relative;
+    
+}
+.IF_inputcontainerEm{
+    background-color: white;
+    width: 250px;
+    height: 29px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 10px 10px 40px;
+    margin-bottom: 10px;
+}
+.MP_inputcontainerEM::placeholder,
+.MP_inputcontainerNUM::placeholder {
+    color: #a2a2a2;
+}
+.IF_inputcontainerEM::placeholder{
+    color: white;
+    padding-left: 5%;
+}
+.IF_checkBtn{
+    flex-shrink: 0; /* Prevents the button from shrinking */
+    background: linear-gradient(to right, #9E00FF, #FF00E3);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: -5px;
+    font-weight: bold;
+}
+.IF_P{
+    color: white;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 12px;
+
+}
+.IF_NUMcontainer{
+    display: flex;
+    justify-content: space-between; /* This will space the children (input and button) */
+    align-items: center; /* Aligns children vertically in the middle */
+    width: 350px; /* Adjust this width based on your layout needs */
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.IF_inputcontainerNUM{
+    background-color: rgba(217, 217, 217, 0.5);
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    flex-grow: 1; /* Allows the input box to grow and fill the container */
+    
+    border: none;
+    padding-left: 5%;
+    
+}
+.IF_inputcontainerNUM::placeholder{
+    color: white;
+    padding-left: 5%;
+}
+.IF_numcheckBtn{
+    flex-shrink: 0; /* Prevents the button from shrinking */
+    background: linear-gradient(to right, #9E00FF, #FF00E3);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: -5px;
+    font-weight: bold;
+}
+.IF_btn{
+    background: linear-gradient(to right, #9E00FF, #FF00E3);
+    border-radius: 40px;
+    margin-left: 5px;
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    color: white;
+    border: none;
+}

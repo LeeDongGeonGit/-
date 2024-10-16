@@ -1,0 +1,146 @@
+.MP_Main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+}
+.MP_changePW{
+    color: white;
+    margin-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: black;
+}
+.MSM_inputcontainerTown{
+    background-color: white;
+    width: 250px;
+    height: 29px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 10px 10px 40px;
+}
+.MSM_X{
+    width: 15px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.MSM_img{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.MSM_btn1{
+    background: linear-gradient(to right, #9E00FF, #FF00E3);
+    border-radius: 20px;
+    margin-left: 245px;
+    width: 100px;
+    height: 35px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    margin-top: 5px;
+}
+.MSM_h2{
+    font-size: 30px;
+    font-weight: bold; /* 굵은 폰트 무게는 그라데이션을 더 눈에 띄게 할 수 있습니다 */
+    background: linear-gradient(to right, #9E00FF, #FF00E3); /* 보라색에서 분홍색으로의 그라데이션 */
+    -webkit-background-clip: text; /*  텍스트에 배경을 클립합니다 (WebKit 브라우저)  */
+    background-clip: text; /* 표준 구문이지만 지원이 제한될 수 있습니다 */
+    -webkit-text-fill-color: transparent; /*  WebKit 브라우저에서 텍스트 색상을 투명하게 만듭니다*/
+    color: transparent;
+    display: inline;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.MSM_X{
+    width: 15px;
+    height: 25px;
+    margin-left: 10px;
+    
+}
+.MSM_img{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.MSM_btn1{
+    background: linear-gradient(to right, #9E00FF, #FF00E3);
+    border-radius: 20px;
+    margin-left: 245px;
+    width: 100px;
+    height: 35px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    margin-top: 5px;
+}
+.MP_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.MP_Logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.MSM_inputBox{
+    position: relative;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.MSM_addressContainer{
+    display: flex;
+    width: 300px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.MSM_BtnContainer{
+    display: flex;
+    width: 300px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.MSM_Btn{
+    background: linear-gradient(to right, #9e00ff, #ff00e3);
+    border-radius: 40px;
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+.qwer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+
+}
+.MP_PLUS_PROFILE{
+    width: 40px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: -50px;
+}

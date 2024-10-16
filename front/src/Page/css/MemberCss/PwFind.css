@@ -1,0 +1,219 @@
+.PF_main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+}
+.PF_X{
+    width: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.PF_Logo{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -30px;
+}
+.PF_textcontainer{
+    display: flex;
+    justify-content: space-between; /* Spreads the headings to use the full width of the container */
+    position: relative; /* Necessary for positioning the pseudo-element absolutely */
+    padding-bottom: 5px;
+}
+.PF_textcontainer::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0; /* Aligns the underline right below the text */
+    height: 3px; /* Height of the underline */
+    background: linear-gradient(to right, white 50%, #9E00FF, #FF00E3 50%); /* Gradient for multi-color */
+    border-radius: 1px;
+}
+.PF_text1{
+    font-size: 25px;
+    font-weight: bold; /* 굵은 폰트 무게는 그라데이션을 더 눈에 띄게 할 수 있습니다 */
+    color: white;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+.PF_pwText2{
+    font-size: 25px;
+    font-weight: bold;
+    background: linear-gradient(to right, #9E00FF, #FF00E3); /* 보라색에서 분홍색으로의 그라데이션 */
+    -webkit-background-clip: text; /*  텍스트에 배경을 클립합니다 (WebKit 브라우저)  */
+    background-clip: text; /* 표준 구문이지만 지원이 제한될 수 있습니다 */
+    -webkit-text-fill-color: transparent; /*  WebKit 브라우저에서 텍스트 색상을 투명하게 만듭니다*/
+    color: transparent;
+    display: inline;
+    margin-right: 20px;
+    
+    margin-top: 80px;
+}
+
+.PF_inputdox{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.PF_icon {
+    position: absolute;
+    left: 15px;
+    top: 65%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+.PF_inputBox {
+    position: relative;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.PF_inputcontainerid{
+    background-color: white;
+    width: 250px;
+    height: 29px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 10px 10px 40px;
+}
+.PF_overlapBtn {
+    position: absolute;
+    right: 0px;
+    top: 28px;
+    background: linear-gradient(to right, #9e00ff, #ff00e3);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 16px 22px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.PF_inputcontainerid::placeholder{
+    color: #a2a2a2;
+}
+.PF_idcheck {
+    flex-shrink: 0; /* Prevents the button from shrinking */
+    background: linear-gradient(to right, #9E00FF, #FF00E3);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: -5px;
+    font-weight: bold;
+}
+
+.PF_EMcontainer{
+    display: flex;
+    justify-content: space-between; /* This will space the children (input and button) */
+    align-items: center; /* Aligns children vertically in the middle */
+    width: 350px; /* Adjust this width based on your layout needs */
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.PF_inputcontainerEM{
+    background-color: rgba(217, 217, 217, 0.5);
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    flex-grow: 1; /* Allows the input box to grow and fill the container */
+    margin-right: 5px;
+    border: none;
+    padding-left: 5%;
+}
+.PF_inputcontainerEM::placeholder{
+    color: white;
+    padding-left: 5%;
+}
+.PF_checkBtn{
+    flex-shrink: 0; /* Prevents the button from shrinking */
+    background: linear-gradient(to right, #9E00FF, #FF00E3);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: -5px;
+    font-weight: bold;
+}
+.PF_p{
+    color: white;
+    margin-top: -15px;
+    margin-left: 20px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.PF_NUMcontainer{
+    display: flex;
+    justify-content: space-between; /* This will space the children (input and button) */
+    align-items: center; /* Aligns children vertically in the middle */
+    width: 350px; /* Adjust this width based on your layout needs */
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.PF_inputcontainerNUM{
+    background-color: rgba(217, 217, 217, 0.5);
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    flex-grow: 1; /* Allows the input box to grow and fill the container */
+    margin-right: 5px;
+    border: none;
+    padding-left: 5%;
+}
+.PF_inputcontainerNUM::placeholder{
+    color: white;
+    padding-left: 5%;
+}
+.PF_numcheckBtn{
+    flex-shrink: 0; /* Prevents the button from shrinking */
+    background: linear-gradient(to right, #9E00FF, #FF00E3);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: -5px;
+    font-weight: bold;
+}
+.PF_btn{
+    background: linear-gradient(to right, #9E00FF, #FF00E3);
+    border-radius: 40px;
+    margin-left: 5px;
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    color: white;
+    border: none;
+}

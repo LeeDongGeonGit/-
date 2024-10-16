@@ -1,0 +1,39 @@
+.non{
+    background-color: rgba(255, 255, 255, 0);
+}
+.active{
+    background: rgba(255, 255, 255, 0);
+}
+.non>img{
+    background-color: rgba(255, 255, 255, 0);
+    width: 25px;
+}
+.active>img{
+    background: rgba(255, 255, 255, 0);
+    width: 25px;
+}
+.MainBtnBody123>button:nth-child(3)>img{
+    width: 40px;
+
+}
+
+.MainBtnBody123>button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: none;
+}
+
+
+.MainBtnBody123{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 1000;
+    position: fixed;
+    bottom:0%;
+    background-color: rgba(255, 255, 255);
+}

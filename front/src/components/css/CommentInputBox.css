@@ -1,0 +1,38 @@
+.CommentInputBoxBody{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.CommentInputBoxInBody{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+.CommentInputBoxUserImg{
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+    margin-right: 2%;
+}
+.CommentInputBoxInBody>input{
+    width: 62%;
+    border-radius: 30px;
+    background-color: #E4E4E4;
+    height: 35px;
+    border: none;
+    padding-left: 8px;
+}
+.CommentInputBoxBtn{
+    width: 35px;
+    margin-left: 3%;
+}
+.communityPageLoading{
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}

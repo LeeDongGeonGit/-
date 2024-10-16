@@ -1,0 +1,33 @@
+.CommentListBody{
+    display: flex;
+    /* justify-content: space-around; 가운데 정렬*/ 
+    color: white;
+    margin: 5% 0 5% 0;
+}
+.CommentListDataBox{
+    
+}
+.CommentListImgBox{
+    margin-left: 20px;
+
+}
+.CommentListImgBox>img{
+    width: 55px;
+    height: 55px;
+    border-radius: 40px;
+}
+.CommentListDeleteBox>img{
+    width: 18px;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+.CommentListName{
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.CommentListContent{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 15px;
+}

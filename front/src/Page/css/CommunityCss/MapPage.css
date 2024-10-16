@@ -1,0 +1,44 @@
+.MM_Main {
+  position: relative; /* 상대적 위치 기준 설정 */
+  width: 100vw;
+  height: 100vh;
+}
+
+.MyMap_X {
+  position: absolute; /* 절대 위치 */
+  width: 15px;
+  height: 25px;
+  left: 10px; /* 좌측 상단에 위치 */
+  top: 2px; /* 좌측 상단에 위치 */
+  z-index: 1000; /* 지도보다 위에 렌더링되도록 z-index 설정 */
+}
+
+.MM_searchBoxContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2000; /* 검색 버튼이 위에 표시되도록 z-index 조정 */
+  background-color: white; /* 배경색 추가 */
+  padding: 10px 0; /* 내부 여백 조정 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40px; /* 높이 조정 */
+}
+
+.MM_MyMap {
+  margin-top: 3px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  background: linear-gradient(to right, #9E00FF, #FF00E3);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.MM_X {
+  width: 15px;
+  height: 15px;
+}

@@ -1,0 +1,83 @@
+.NFLP_Main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+}
+.NFLP_header{
+    display: flex;
+}
+.NFLP_X{
+    width: 15px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.NFLP_friendlogo{
+    color: white;
+    margin-left: 100px;
+    font-weight: bold; /* 굵은 폰트 무게는 그라데이션을 더 눈에 띄게 할 수 있습니다 */
+    background: linear-gradient(to right, #9E00FF, #FF00E3); /* 보라색에서 분홍색으로의 그라데이션 */
+    -webkit-background-clip: text; /*  텍스트에 배경을 클립합니다 (WebKit 브라우저)  */
+    background-clip: text; /* 표준 구문이지만 지원이 제한될 수 있습니다 */
+    -webkit-text-fill-color: transparent; /*  WebKit 브라우저에서 텍스트 색상을 투명하게 만듭니다*/
+    color: transparent;
+    display: inline;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.NFLP_Mycontainer{
+    display: flex;
+}
+.NFLP_Mycontainer2{
+    display: flex;
+    margin-bottom: -20px;
+}
+.NFLP_followingbtn{
+    background: linear-gradient(to right, #9E00FF, #FF00E3);
+    width: 70px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+}
+.NFLP_img{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 30px;
+}
+.NFLP_textcontainer{
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.NFLP_hr{
+    margin-top: 30px;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+.NFLP_postcontainer{
+    display: flex;
+}
+.NFLP_posth2{
+    color: white;
+    margin-left: 10px;
+}
+.NFLP_postbtn{
+    background: linear-gradient(to right, #9E00FF, #FF00E3);
+    width: 90px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 210px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+}

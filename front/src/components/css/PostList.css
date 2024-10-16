@@ -1,0 +1,55 @@
+.PostListBody *{
+    background-color: #232323;
+}
+.PostListInBody{
+    display: flex;
+    justify-content: space-between;
+    background-color: #232323;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    color: white;
+}
+.imgBox{
+    
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.imgBox>img{
+    height:90px;
+    width: 90px;
+    margin: 0px 0 10px 0;
+}
+
+.PPostListline{
+    background-color: white;
+    width: 95%;
+    border: 1px white;
+    opacity: 0.3;
+}
+.PL_PostListTitle{
+    font-size: 20px;
+    margin: 10px 0px 0px 5px;
+    color: white;
+    font-weight: bold;
+}
+.PL_PostListtage{
+    height: 10px;
+    color: white;
+    margin-top: 5px;
+    font-size: 12px;
+    margin-left: 5px;
+
+}
+.PostListListIcon{
+    margin-top: 10px;
+}
+.PostListListIcon>img{
+    width: 20px;
+    margin: 5px;
+}
+.PostListLeft{
+    padding-left: 8px;
+}

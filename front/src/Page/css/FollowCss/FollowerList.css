@@ -1,0 +1,43 @@
+.FL_Main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: auto; 
+    background-color: black;
+}
+.FL_X{
+    width: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.FL_textcontainer{
+    color: white;
+    display: flex;
+    text-align: center;
+}
+.FL_text1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.FL_text2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.FL_hr {
+    opacity: 0.3;
+    border: 1px solid white; 
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 20px 0;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+}
+.communityPageLoading{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    
+}

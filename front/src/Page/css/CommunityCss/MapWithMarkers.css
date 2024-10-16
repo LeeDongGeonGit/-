@@ -1,0 +1,131 @@
+.M_mainClickBox {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none; /* 경계선 추가 */
+    border-radius: 10px;
+    
+    width: 250px; /* 너비 조정 */
+    height: 350px; /* 높이를 자동으로 조정 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+    z-index: 1000;
+    
+}
+.M_X{
+    width: 20px;
+    margin-top: 10px;
+}
+.FM_X{
+    width: 20px;
+    margin-top: 5px;
+    margin-left: 90%;
+}
+.FM_Box{
+    position: absolute; /* 절대 위치 */
+    top: 10px;
+    z-index: 1000; /* 지도보다 위에 렌더링되도록 z-index 설정 */
+    margin-left: 140px;
+}
+.FM_MyMap{
+    color: white;
+    font-weight: bold; /* 굵은 폰트 무게는 그라데이션을 더 눈에 띄게 할 수 있습니다 */
+    background: linear-gradient(to right, #9E00FF, #FF00E3); /* 보라색에서 분홍색으로의 그라데이션 */
+    -webkit-background-clip: text; /*  텍스트에 배경을 클립합니다 (WebKit 브라우저)  */
+    background-clip: text; /* 표준 구문이지만 지원이 제한될 수 있습니다 */
+    -webkit-text-fill-color: transparent; /*  WebKit 브라우저에서 텍스트 색상을 투명하게 만듭니다*/
+    color: transparent;
+    font-size: 25px;
+    margin-top: 8px;
+}
+.M_mainPostBox{
+    justify-content: space-between;
+    background-color: black;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.M_mainPostBoxleft{
+    margin-left: 5%;
+
+}
+.M_mainPostImg{
+    height:80px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.M_mainPostBoxTitle{
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+}
+.M_mainPostBoxTags{
+    color: white;
+    margin-bottom: 10px;
+    background-color: black;
+    font-size: 13px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.M_mainPostBoxIsHeartImg{
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 20px;
+}
+.M_mainPostBoxisheart>img{
+    width: 20px;
+    margin: 5px;
+    background-color: black;
+}
+.M_mainFollowBox{
+    width: 250px;
+    height: 120px;
+    background: linear-gradient(to right, #9E00FF, #FF00E3); /* 보라색에서 분홍색으로의 그라데이션 */
+    display: flex;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.M_mainFollowleft{
+    width: 90px;
+    height: 90px;
+    background-color: antiquewhite;
+    border-radius: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
+.M_mainFollowleftImg{
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.M_mainFollowRight{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.M_mainFollowRightName{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.M_mainFollowRightBtn{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: rgba(0, 0, 0, 0.8);
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+    background-color: white;
+    margin-top: 5px;
+}
