@@ -3,6 +3,7 @@
 
 https://github.com/user-attachments/assets/2f09f0e7-1d98-40fa-9201-8b927c011aec
 
+[[금오공대] 3Log_우리동네대장(결과보고서) .pdf](https://github.com/user-attachments/files/17413238/3Log_.pdf)
 
 
 <img width="1009" alt="image" src="https://github.com/user-attachments/assets/37acfc31-e3e3-4416-a05b-5c181f2e920f">
