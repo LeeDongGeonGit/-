@@ -1,0 +1,15 @@
+output/
+bin/
+build/
+gen/
+
+native/
+
+.gradle/
+.idea/
+.settings/
+
+.classpath
+.project
+
+local.properties
